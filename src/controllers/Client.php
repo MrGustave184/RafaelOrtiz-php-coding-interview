@@ -16,6 +16,10 @@ class Client {
 	}
 
 	public function createClient($client) {
+        if (!filter_var($client['email'], FILTER_VALIDATE_EMAIL)) {
+            throw new \InvalidArgumentException();
+        }
+
 		return $this->getClientModel()->createClient($client);
 	}
 

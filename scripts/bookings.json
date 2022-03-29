@@ -12,5 +12,61 @@
         "price": 100,
         "checkindate": "2021-08-05 15:00:00",
         "checkoutdate": "2021-08-08 15:00:00"
+    },
+    {
+        "clientid": 1,
+        "price": 200,
+        "checkindate": "2021-08-04 15:00:00",
+        "checkoutdate": "2021-08-11 15:00:00",
+        "id": 3
+    },
+    {
+        "clientid": 1,
+        "price": 200,
+        "checkindate": "2021-08-04 15:00:00",
+        "checkoutdate": "2021-08-11 15:00:00",
+        "id": 4
+    },
+    {
+        "clientid": 5,
+        "price": 300,
+        "checkindate": "2021-08-04 15:00:00",
+        "checkoutdate": "2021-08-11 15:00:00",
+        "id": 5
+    },
+    {
+        "clientid": 5,
+        "price": 300,
+        "checkindate": "2021-08-04 15:00:00",
+        "checkoutdate": "2021-08-11 15:00:00",
+        "id": 6
+    },
+    {
+        "clientid": 5,
+        "price": 270,
+        "checkindate": "2021-08-04 15:00:00",
+        "checkoutdate": "2021-08-11 15:00:00",
+        "id": 7
+    },
+    {
+        "clientid": 5,
+        "price": 300,
+        "checkindate": "2021-08-04 15:00:00",
+        "checkoutdate": "2021-08-11 15:00:00",
+        "id": 8
+    },
+    {
+        "clientid": 5,
+        "price": 300,
+        "checkindate": "2021-08-04 15:00:00",
+        "checkoutdate": "2021-08-11 15:00:00",
+        "id": 9
+    },
+    {
+        "clientid": 5,
+        "price": 300,
+        "checkindate": "2021-08-04 15:00:00",
+        "checkoutdate": "2021-08-11 15:00:00",
+        "id": 10
     }
 ]

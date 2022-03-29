@@ -63,4 +63,19 @@ class ClientTest extends TestCase {
 		$this->assertIsArray($results);
 		$this->assertIsNotObject($results);
 	}
+
+	/** @test */
+    public function ThrowsExceptionWhenClientHasInvalidEmail() {
+        $this->expectException(\InvalidArgumentException::class);
+        
+        $client = [
+			'id' => 3,
+			'username' => 'cperez',
+			'name' => 'Carlos Perez',
+			'email' => 'cperez@dogeplace.com',
+			'phone' => '2222222'
+		];
+
+        $newClient = $this->client->createClient($client);
+    }
 }

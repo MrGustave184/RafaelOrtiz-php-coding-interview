@@ -34,5 +34,12 @@
         "email": "newuser@dogeplace.com",
         "phone": "5555555",
         "id": 5
+    },
+    {
+        "id": 6,
+        "username": "cperez",
+        "name": "Carlos Perez",
+        "email": "cperez@dogeplace.com",
+        "phone": "2222222"
     }
 ]

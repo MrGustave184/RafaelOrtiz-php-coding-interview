@@ -17,4 +17,18 @@ class DogModel {
 	public function getDogs() {
 		return $this->dogData;
 	}
+
+	public function getDogsByClientId($id) {
+		$dogs = $this->getDogs();
+
+        $dogsArray = [];
+
+		foreach ($dogs as $dog) {
+			if ($dog['id'] == $id) {
+				$dogsArray[] = $dog;
+			}
+		}
+
+		return $dogsArray;
+	}
 }
