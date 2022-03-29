@@ -11,7 +11,7 @@ class BookingModel {
 		$this->bookingData = json_decode($string, true);
 	}
 
-	public static function getBookings() {
+	public function getBookings() {
 		return $this->bookingData;
 	}
 }
